@@ -1,0 +1,2 @@
+java -cp .\target\classes dc.sockettest.EchoServer
+java -cp .\target\classes dc.sockettest.EchoClient

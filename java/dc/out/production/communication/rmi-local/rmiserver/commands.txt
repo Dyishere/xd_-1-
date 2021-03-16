@@ -1,0 +1,11 @@
+javac *.java
+start /b rmiregistry 1099
+java MyRMIServer
+
+#Windows后台运行方法：
+start /b rmiregistry 1099
+tasklist
+taskkill /pid **** /F
+
+
+

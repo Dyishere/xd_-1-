@@ -1,0 +1,3 @@
+javac *.java
+#rmic MyCalcImpl
+java MyRMIClient
